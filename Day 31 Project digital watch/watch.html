@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .c{
+        margin-top: 250px;
+        font-family: "Monaco", monospace; 
+        font-size: 48px; 
+        color: red; 
+        text-shadow: 0 0 5px #add8e6; 
+        margin-bottom: 40px;
+      }
+      .timer-container {
+        background-color: #2e4053;
+        height: 100vh;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        /* text-align: center; */
+      }
+
+      #display {
+        margin-top: 0px;
+        font-family: "Monaco", monospace; 
+        font-size: 48px; 
+        color: #ffffff; 
+        text-shadow: 0 0 5px #add8e6; 
+        margin-bottom: 40px;
+      }
+     
+      .flex{
+        display: flex;
+        justify-content: center;
+      }
+#st {
+  all: unset;
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  position: relative;
+  color: #f0f0f0;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-bottom: 30px;
+  margin-right: 50px;
+}
+
+#st::after,
+#st::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+}
+#st::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: #28282d;
+  border-radius: 10px;
+}
+
+#st::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #ffffff15;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+
+#st:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+
+#st:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+#st:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}
+
+
+
+#stop {
+  all: unset;
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  position: relative;
+  color: #f0f0f0;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#stop::after,
+#stop::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+}
+#stop::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: #28282d;
+  border-radius: 10px;
+}
+
+#stop::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #ffffff15;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+
+#stop:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+
+#stop:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+#stop:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}
+    </style>
+  </head>
+  <body>
+
+    <center>
+    <div class="timer-container">
+        <h1 class="c">Digital Watch</h1>
+      <h1 id="display">00:00:00</h1>
+      <div class="flex">
+      <button id="st">Start</button>
+      <button id="stop">Stop</button>
+      </div>
+    </div>
+    </center>
+
+    <script src="watch.js"></script>
+  </body>
+</html>
