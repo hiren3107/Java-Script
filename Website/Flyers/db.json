@@ -57,20 +57,6 @@
       "price": 99
     }
   ],
-  "cart": [
-    {
-      "id": "3",
-      "img": "https://drinkflyers.com/cdn/shop/files/MargaritaCloseUp-1Web1x1V3.png",
-      "title": "THC Margarita",
-      "review": "777 Reviews",
-      "price": 36
-    }
-  ],
-  "signup": [
-    {
-      "id": "f1cc",
-      "email": "ahiren900@gmail.com",
-      "pass": "Hiren@123"
-    }
-  ]
+  "cart": [],
+  "signup": []
 }

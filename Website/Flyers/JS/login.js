@@ -40,29 +40,31 @@ document.querySelector("#login").addEventListener("submit", (h) => {
 
     if (kk == true) {
         function getdata(arr){
-            return ans = arr.filter((el)=>{
+            ans = arr.filter((el)=>{
                 if(loginemail == el.email && loginpass == el.pass)
                 {
                     return el
                 }
-            })
+             })
+            if (ans.length > 0) {
+                Swal.fire({
+                    title: "Log In Successful...!",
+                    text: "You clicked the button!",
+                    icon: "success"
+                });
+
+            } else {
+                Swal.fire({
+                    icon: "error",
+                    title: "Log In Failed...",
+                    text: "Something went wrong!",
+                    footer: '<a href="#">Why do I have this issue?</a>'
+                })
+            }
         }
 
-        if (ans.length > 0) {
-            Swal.fire({
-                title: "Log In Successful...!",
-                text: "You clicked the button!",
-                icon: "success"
-              });
-            
-         } else {
-            Swal.fire({
-                icon: "error",
-                title: "Log In Failed...",
-                text: "Something went wrong!",
-                footer: '<a href="#">Why do I have this issue?</a>'
-              })
-          }
+
+        
     }
 
     

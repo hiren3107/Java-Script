@@ -21,12 +21,18 @@ return arr.map((Element) => {
       </p>
     </div>
     <div id="button">
-    <a href="index.html">
-        <button id="check">Check Out</button>
-    </a>
+        <button id="check" onclick=" dd(${Element.id})">Delete</button>
+
     </div>
  </div> 
 `}).join("")
 }
 
-
+function dd(id){
+    fetch(`http://localhost:3000/cart/${id}`,{
+        method:"DELETE",
+    })
+    .then((res)=>{
+        return res.json();
+    })
+}

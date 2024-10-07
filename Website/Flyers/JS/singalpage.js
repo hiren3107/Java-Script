@@ -9,7 +9,6 @@ function FetchingData() {
       .then((res) => {
           document.getElementById("box").innerHTML = view(res)
           document.getElementById("addtocart").addEventListener("click", () => {
-              // console.log(res)
               addToCart(res)
           })
       })
