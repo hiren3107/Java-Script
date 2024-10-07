@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="box">
+
+
+    </div>
+    <a href="product.html">gfghfgh</a>
+    <script>
+
+    fetch(`http://localhost:3000/cart`)
+        .then((res) => {
+            return res.json()
+        }).then((Res) => {
+            document.querySelector("#box").innerHTML = view(Res)
+        }).catch((err) => {
+            console.log(err);
+        })
+
+    function view(arr) {
+        return arr.map((Element) => {
+            return `<div id="card">
+            <div>
+                <img src="${Element.img}" alt="${Element.title}" width="250px">
+            </div>  
+        </div>`}).join("")
+    }
+    </script>
+</body>
+</html>

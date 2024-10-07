@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mohave", sans-serif;
+}
+header{
+    width: 100%;
+    height: 90px;
+    /* border: 1px solid black; */
+    background-color: #020202;
+    position: sticky;
+    top: 0;
+}
+#hero{
+    background-image: url(/images/Hero1.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+#shopnow{
+    width: 105px;
+    height: 54px;
+    border: none;
+    background-color: #CD9E53;
+    font-size: 18px;
+    color: #023636;
+    font-weight: 600;
+    border-radius: 8px;
+
+}
+
+#shopnow:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+
+
+.foota{
+    font-size: 18px;
+    text-decoration: none;
+    color: #F5EEE2;
+    display: block;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+#input{
+    padding: 14px 18px;
+    margin-bottom: 10px;
+    height: 54px;
+    border-radius: 8px;
+    border: 1px solid #F5EEE2;
+    background-color: transparent;
+    color: #F5EEE2;
+    font-size: 18px;
+}
+#footerbtn{
+    margin-bottom: 10px;
+    height: 54px;
+    border: none;
+    background-color: #CD9E53;
+    font-size: 18px;
+    color: #023636;
+    font-weight: 600;
+    border-radius: 8px;
+}
+#footerbtn:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+.Loginmain{
+    width: 505px;
+    padding: 45px;
+    border: 1px solid #CD9E53;
+    border-radius: 8px;
+}
+#firstname{
+    width: 100%;
+    height: 54px;
+    border: 1px solid #F5EEE2;
+    border-radius: 8px;
+    color: #F5EEE2;
+    font-size: 20px;
+    background-color: transparent;
+    font-family: "Mohave", sans-serif;
+    padding-left: 20px;
+}
+#lastname{
+    width: 100%;
+    height: 54px;
+    border: 1px solid #F5EEE2;
+    border-radius: 8px;
+    color: #F5EEE2;
+    font-size: 20px;
+    background-color: transparent;
+    font-family: "Mohave", sans-serif;
+    padding-left: 20px;
+}
+#loginemail{
+    width: 100%;
+    height: 54px;
+    border: 1px solid #F5EEE2;
+    border-radius: 8px;
+    color: #F5EEE2;
+    font-size: 20px;
+    background-color: transparent;
+    font-family: "Mohave", sans-serif;
+    padding-left: 20px;
+}
+#loginpassword{
+    width: 100%;
+    height: 54px;
+    border: 1px solid #F5EEE2;
+    border-radius: 8px;
+    color: #F5EEE2;
+    font-size: 20px;
+    background-color: transparent;
+    font-family: "Mohave", sans-serif;
+    padding-left: 20px;
+}
+#creat{
+    width: 100%;
+    height: 54px;
+    border: none;
+    background-color: #CD9E53;
+    font-size: 18px;
+    color: #023636;
+    font-weight: 600;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    margin-top: 22px;
+}
+
+#creat:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+/* aside  */
+
+#asid{
+    position: fixed;
+    width: 40%;
+    height: 100vh;
+    margin-top: -100px;
+}
+#inputbox{
+    height: 54px;
+    border-radius: 8px;
+    border: 1px solid #F5EEE2;
+    position: relative;
+    margin-top: 22px;
+}
+
+#input{
+    width: 100%;
+    padding: 14px 18px;
+    height: 54px;
+    border-radius: 8px;
+    border: none;
+    background-color: transparent;
+    color: #F5EEE2;
+    font-size: 18px;
+}
+#search{
+    position: absolute;
+    right: 10px;
+    color: #F5EEE2;
+    font-size:25px;
+    top: 15px;
+}

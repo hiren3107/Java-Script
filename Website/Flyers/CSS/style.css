@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mohave", sans-serif;
+}
+header{
+    width: 100%;
+    height: 90px;
+    /* border: 1px solid black; */
+    background-color: #020202;
+    position: sticky;
+    top: 0;
+}
+#hero{
+    background-image: url(/images/Hero1.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+#shopnow{
+    width: 105px;
+    height: 54px;
+    border: none;
+    background-color: #CD9E53;
+    font-size: 18px;
+    color: #023636;
+    font-weight: 600;
+    border-radius: 8px;
+
+}
+
+#shopnow:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+#s6btn{
+    width:225px;
+    height: 54px;
+    border: none;
+    background-color: #CD9E53;
+    font-size: 18px;
+    color: #023636;
+    font-weight: 600;
+    border-radius: 8px;
+}
+#s6btn:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+#s9btn{
+    width:255px;
+    height: 54px;
+    border: none;
+    background-color: #CD9E53;
+    font-size: 18px;
+    color: #023636;
+    font-weight: 600;
+    border-radius: 8px;
+}
+#s9btn:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+.foota{
+    font-size: 18px;
+    text-decoration: none;
+    color: #F5EEE2;
+    display: block;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+#input{
+    padding: 14px 18px;
+    margin-bottom: 10px;
+    height: 54px;
+    border-radius: 8px;
+    border: 1px solid #F5EEE2;
+    background-color: transparent;
+    color: #F5EEE2;
+    font-size: 18px;
+}
+#footerbtn{
+    margin-bottom: 10px;
+    height: 54px;
+    border: none;
+    background-color: #CD9E53;
+    font-size: 18px;
+    color: #023636;
+    font-weight: 600;
+    border-radius: 8px;
+}
+#footerbtn:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+
+
+#cart-img1{
+    padding: 15px;
+    border: 1px solid #FFCF2A;
+    border-radius: 8px;
+    background-image: url(/images/carthover1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px ;
+}
+#imghover1{
+    height:480px ;
+    margin-bottom: 20px;
+}
+#imghover1:hover #img1{
+    display: none;
+}
+#img1{
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#cart-img2{
+    padding: 15px;
+    border: 1px solid #FFCF2A;
+    border-radius: 8px;
+    background-image: url(/images/carthover2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px ;
+}
+#imghover2{
+    height:480px ;
+    margin-bottom: 20px;
+}
+#imghover2:hover #img2{
+    display: none;
+}
+#img2{
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+#cart-img3{
+    padding: 15px;
+    border: 1px solid #FFCF2A;
+    border-radius: 8px;
+    background-image: url(/images/carthover3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px ;
+}
+#imghover3{
+    height:480px ;
+    margin-bottom: 20px;
+}
+#imghover3:hover #img3{
+    display: none;
+}
+#img3{
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+#cart-img4{
+    padding: 15px;
+    border: 1px solid #FFCF2A;
+    border-radius: 8px;
+    background-image: url(/images/carthover4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px ;
+}
+#imghover4{
+    height:480px ;
+    margin-bottom: 20px;
+}
+#imghover4:hover #img4{
+    display: none;
+}
+#img4{
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+#cart-img5{
+    padding: 15px;
+    border: 1px solid #FFCF2A;
+    border-radius: 8px;
+    background-image: url(/images/carthover5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px ;
+}
+#imghover5{
+    height:480px ;
+    margin-bottom: 20px;
+}
+#imghover5:hover #img5{
+    display: none;
+}
+#img5{
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+#cart-img6{
+    padding: 15px;
+    border: 1px solid #FFCF2A;
+    border-radius: 8px;
+    background-image: url(/images/carthover6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px ;
+}
+#imghover6{
+    height:480px ;
+    margin-bottom: 20px;
+}
+#imghover6:hover #img6{
+    display: none;
+}
+#img6{
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+#cart-img7{
+    padding: 15px;
+    border: 1px solid #FFCF2A;
+    border-radius: 8px;
+    background-image: url(/images/carthover7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px ;
+}
+#imghover7{
+    height:480px ;
+    margin-bottom: 20px;
+}
+#imghover7:hover #img7{
+    display: none;
+}
+#img7{
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+}
+
+
+#cart-img8{
+    padding: 15px;
+    border: 1px solid #FFCF2A;
+    border-radius: 8px;
+    background-image: url(/images/carthover8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px ;
+}
+#imghover8{
+    height:480px ;
+    margin-bottom: 20px;
+}
+#imghover8:hover #img8{
+    display: none;
+}
+#img8{
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#textbox{
+    text-align: center;
+}
+#title{
+    color: #F5EEE2;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+#star{
+    color: #FFCF2A;
+}
+#rate{
+    color: #F5EEE2;
+    font-size: 16px;
+    margin-left: 10px;
+}
+#prise{
+    margin-top: 5px;
+    color: #F5EEE2;
+    font-size: 20px;
+}
+
+
+/* aside  */
+
+#asid{
+    position: fixed;
+    width: 40%;
+    height: 100vh;
+    margin-top: -100px;
+}
+#inputbox{
+    height: 54px;
+    border-radius: 8px;
+    border: 1px solid #F5EEE2;
+    position: relative;
+    margin-top: 22px;
+}
+
+#input{
+    width: 100%;
+    padding: 14px 18px;
+    height: 54px;
+    border-radius: 8px;
+    border: none;
+    background-color: transparent;
+    color: #F5EEE2;
+    font-size: 18px;
+}
+#search{
+    position: absolute;
+    right: 10px;
+    color: #F5EEE2;
+    font-size:25px;
+    top: 15px;
+}
+
+
+/* modal  */
+
+#modal{
+    /* border: 1px solid black; */
+    position: fixed;
+    /* opacity: 0%; */
+    left: 40%;
+    top: 30%;
+    display: none;
+    position: relative;
+    position: absolute;
+    /* padding: 20px; */
+}
+
+#iconclose{
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    cursor: pointer;
+    color: #F5EEE2;
+}
