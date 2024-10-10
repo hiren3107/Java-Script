@@ -27,7 +27,7 @@ document.querySelector("#login").addEventListener("submit", (h) => {
 
     if(kk == true)
     {
-        fetch(`http://localhost:3000/signup`)
+        fetch(`https://online-api-bhsx.onrender.com/signup`)
         .then((re)=>{
             return re.json()
         }).then((res)=>{

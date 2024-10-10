@@ -28,7 +28,7 @@ document.querySelector("#signup").addEventListener("submit", (e) => {
     };
 
     if (vailid == true) {
-        fetch(`http://localhost:3000/signup`, {
+        fetch(`https://online-api-bhsx.onrender.com/signup`, {
             method: "POST",
             headers: {
                 "content-Type": "application/json"

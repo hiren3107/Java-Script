@@ -1,4 +1,4 @@
-fetch(`http://localhost:3000/product`)
+fetch(`https://online-api-bhsx.onrender.com/product`)
     .then((res) => {
         return res.json()
     }).then((Res) => {

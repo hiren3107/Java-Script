@@ -1,4 +1,4 @@
-fetch(`http://localhost:3000/cart`)
+fetch(`https://online-api-bhsx.onrender.com/cart`)
 .then((res) => {
     return res.json()
 }).then((Res) => {
@@ -29,7 +29,7 @@ return arr.map((Element) => {
 }
 
 function dd(id){
-    fetch(`http://localhost:3000/cart/${id}`,{
+    fetch(`https://online-api-bhsx.onrender.com/cart/${id}`,{
         method:"DELETE",
     })
     .then((res)=>{
