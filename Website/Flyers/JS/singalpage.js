@@ -77,7 +77,7 @@ function addToCart(res) {
                   headers: {
                       'Content-Type': "application/json"
                   },
-                  body: JSON.stringify(res[0])
+                  body: JSON.stringify({...res[0],qtt : 1})
               })
                   .then((Res) => {
                       return Res.json()
@@ -88,6 +88,23 @@ function addToCart(res) {
                   .catch((err) => {
                       console.log(err)
                   })
+
+                  Swal.fire({
+                    title: "Item Aded in Cart...",
+                    showClass: {
+                      popup: `
+                        animate__animated
+                        animate__fadeInUp
+                        animate__faster
+                      `
+                    },
+                    hideClass: {
+                      popup: `
+                        animate__animated
+                        animate__fadeOutDown
+                        animate__faster
+                      `
+                    }})
           }
       })
       .catch((err) => {
@@ -95,8 +112,6 @@ function addToCart(res) {
       })
 
 }
-
-
 FetchingData()
 
 

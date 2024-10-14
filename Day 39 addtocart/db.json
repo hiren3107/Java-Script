@@ -58,33 +58,6 @@
     }
   ],
   "cart": [
-    {
-      "id": "4",
-      "img": "https://drinkflyers.com/cdn/shop/files/FlyersNewCansHero2V3WEBSizing_2024-06-01T04_04_44.717Z.png",
-      "title": "THC PARTY PACK",
-      "review": "888 Reviews",
-      "price": 99
-    },
-    {
-      "id": "2",
-      "img": "https://drinkflyers.com/cdn/shop/files/OlFashionedCloseUp-2WEB.jpg",
-      "title": "THC Ol' Fashioned",
-      "review": "498 Reviews",
-      "price": 45
-    },
-    {
-      "id": "8",
-      "img": "https://drinkflyers.com/cdn/shop/files/SunsetSpritzBeachV2-WEB_e149a476-b080-4b7e-85ef-b306d43717c1.png",
-      "title": "THC SUNSET SPRITZ - PARTY PACK",
-      "review": "998 Reviews",
-      "price": 99
-    },
-    {
-      "id": "4",
-      "img": "https://drinkflyers.com/cdn/shop/files/FlyersNewCansHero2V3WEBSizing_2024-06-01T04_04_44.717Z.png",
-      "title": "THC PARTY PACK",
-      "review": "888 Reviews",
-      "price": 99
-    }
+    
   ]
 }
