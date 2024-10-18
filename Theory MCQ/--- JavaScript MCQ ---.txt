@@ -1,0 +1,423 @@
+--- JavaScript MCQ ---
+
+1. Which of the following is a correct data type in JavaScript?
+
+a) Integer
+b) Float
+c) Undefined
+d) Character
+Answer: c) Undefined
+
+2. Which of the following methods can be used to display data in JavaScript?
+a) document.write()
+b) console.log()
+c) alert()
+d) All of the above
+Answer: d) All of the above
+
+3. What is the correct syntax for referring to an external script called "script.js"?
+a) <script name="script.js">
+b) <script href="script.js">
+c) <script src="script.js">
+d) <script link="script.js">
+Answer: c) <script src="script.js">
+
+4. Which of the following is a correct way to create a function in JavaScript?
+a) function = myFunction()
+b) function myFunction()
+c) myFunction()
+d) None of the above
+Answer: b) function myFunction()
+
+5. How do you call a function named "myFunction" in JavaScript?
+a) myFunction.call()
+b) call myFunction()
+c) myFunction()
+d) None of the above
+Answer: c) myFunction()
+
+Variables and Operators
+6. Which of the following is used to declare a variable in JavaScript?
+a) let
+b) var
+c) const
+d) All of the above
+Answer: d) All of the above
+
+7. What is the output of the following code: console.log(2 + '2');?
+a) 22
+b) 4
+c) '4'
+d) '2 2'
+Answer: a) 22
+
+8. Which of the following is the correct way to declare a constant in JavaScript?
+a) var CONSTANT = 5;
+b) constant CONSTANT = 5;
+c) let CONSTANT = 5;
+d) const CONSTANT = 5;
+Answer: d) const CONSTANT = 5;
+
+9. What is the output of 2 + "2" == 4 in JavaScript?
+a) true
+b) false
+c) NaN
+d) Undefined
+Answer: b) false
+
+10. What will be the output of typeof NaN in JavaScript?
+a) "number"
+b) "NaN"
+c) "object"
+d) "undefined"
+Answer: a) "number"
+
+Control Flow
+11. Which of the following is not a loop in JavaScript?
+a) for
+b) while
+c) repeat
+d) do...while
+Answer: c) repeat
+
+12. Which of the following statement is used to exit from a loop?
+a) break
+b) exit
+c) stop
+d) return
+Answer: a) break
+
+13. What does the continue statement do in JavaScript?
+a) It terminates the loop.
+b) It skips the current iteration of the loop.
+c) It jumps out of the loop.
+d) None of the above
+Answer: b) It skips the current iteration of the loop.
+
+14. Which of the following is used to check equality in JavaScript (with type checking)?
+a) =
+b) ==
+c) ===
+d) !=
+Answer: c) ===
+
+15.What will the following code output: if (false == 'false') { console.log('true'); } else { console.log('false'); }?
+a) true
+b) false
+c) TypeError
+d) Undefined
+Answer: b) false
+
+Functions and Scope
+16. In JavaScript, what is the scope of a variable declared with var inside a function?
+a) Block scope
+b) Function scope
+c) Global scope
+d) Local scope
+Answer: b) Function scope
+
+17. What is a higher-order function in JavaScript?
+a) A function that takes another function as an argument or returns a function
+b) A function that is written in uppercase
+c) A function that has more than one parameter
+d) None of the above
+Answer: a) A function that takes another function as an argument or returns a function
+
+18. Which of the following is an example of an Immediately Invoked Function Expression (IIFE)?
+a) function() { console.log('IIFE'); }
+b) (function() { console.log('IIFE'); })();
+c) var IIFE = function() { console.log('IIFE'); };
+d) None of the above
+Answer: b) (function() { console.log('IIFE'); })();
+
+19. What will be the output of this code: var x = 1; function print() { var x = 2; console.log(x); } print(); console.log(x);?
+a) 2 1
+b) 1 2
+c) 2 2
+d) 1 1
+Answer: a) 2 1
+
+20. What is the default return value of a function in JavaScript if no return statement is provided?
+a) null
+b) 0
+c) undefined
+d) false
+Answer: c) undefined
+
+Arrays and Objects
+21. How do you create an array in JavaScript?
+a) var arr = {};
+b) var arr = [];
+c) var arr = ();
+d) var arr = [[]];
+Answer: b) var arr = [];
+
+22. Which array method adds an element to the end of an array?
+a) pop()
+b) push()
+c) shift()
+d) unshift()
+Answer: b) push()
+
+23. What is the correct syntax for accessing the first element of an array?
+a) array[0]
+b) array(1)
+c) array[1]
+d) array.first
+Answer: a) array[0]
+
+24.Which method is used to convert an array into a string in JavaScript?
+a) join()
+b) concat()
+c) slice()
+d) toString()
+Answer: d) toString()
+
+25. What is the output of the following code: var arr = [1, 2, 3]; console.log(arr.length);?
+a) 2
+b) 3
+c) 4
+d) undefined
+Answer: b) 3
+
+Advanced Concepts
+26. Which of the following is not a primitive data type in JavaScript?
+a) string
+b) object
+c) number
+d) boolean
+Answer: b) object
+
+27. Which of the following is an example of a callback function?
+a) A function that is executed immediately when it is created
+b) A function passed as an argument to another function
+c) A function that has no parameters
+d) None of the above
+Answer: b) A function passed as an argument to another function
+
+28. What will the following code output: let a = [1, 2]; let b = [1, 2]; console.log(a === b);?
+a) true
+b) false
+c) undefined
+d) TypeError
+Answer: b) false
+
+29. Which of the following is an example of a template literal in JavaScript?
+a) "Hello, ${name}"
+b) var str = 'Hello, ' + name;
+c) `Hello, ${name}`
+d) "Hello, " + name
+Answer: c) `Hello, ${name}`
+
+30. What does the bind() method do in JavaScript?
+a) It creates a new function, with the this keyword set to a specific value.
+b) It immediately executes the function it is called on.
+c) It changes the scope of the function.
+d) None of the above
+Answer: a) It creates a new function, with the this keyword set to a specific value.
+
+Event Handling
+31. Which event occurs when a user clicks on an HTML element?
+a) onmouseclick
+b) onclick
+c) onmouseover
+d) onkeydown
+Answer: b) onclick
+
+32. How do you prevent the default action of an event in JavaScript?
+a) event.returnValue = false;
+b) event.stopDefault();
+c) event.preventDefault();
+d) event.cancelAction();
+Answer: c) event.preventDefault();
+
+33. Which method is used to attach an event handler to a specified element?
+a) attachEvent()
+b) addEvent()
+c) addEventListener()
+d) setEventListener()
+Answer: c) addEventListener()
+
+34. Which event is triggered when a user focuses on an input field?
+a) onfocus
+b) onblur
+c) onchange
+d) onselect
+Answer: a) onfocus
+
+35. How can you detect when a form is submitted in JavaScript?
+a) onsubmit
+b) onreset
+c) onchange
+d) onload
+Answer: a) onsubmit
+
+DOM Manipulation
+36. How do you access an element by its ID in JavaScript?
+a) document.getElementById()
+b) document.getElementByClass()
+c) document.getNode()
+d) document.querySelector()
+Answer: a) document.getElementById()
+
+37. What does the innerHTML property do?
+a) Returns the HTML content of an element.
+b) Returns the text content of an element.
+c) Removes the element from the DOM.
+d) Adds a new element to the DOM.
+Answer: a) Returns the HTML content of an element.
+
+38. How can you create a new HTML element in JavaScript?
+a) document.createElement()
+b) document.newElement()
+c) document.appendElement()
+d) document.addElement()
+Answer: a) document.createElement()
+
+39. Which method is used to remove a child element from the DOM?
+a) removeElement()
+b) deleteChild()
+c) removeChild()
+d) removeNode()
+Answer: c) removeChild()
+
+40. What does document.querySelectorAll() return?
+a) The first matching element
+b) A NodeList of matching elements
+c) An array of matching elements
+d) A single HTML element
+Answer: b) A NodeList of matching elements
+
+Error Handling
+41. How do you catch errors in JavaScript?
+a) try { ... } catch { ... }
+b) catch { ... } try { ... }
+c) throw { ... } catch { ... }
+d) None of the above
+Answer: a) try { ... } catch { ... }
+
+42. What will the following code output: try { throw new Error('Oops'); } catch(e) { console.log(e.message); }?
+a) Oops
+b) Error: Oops
+c) undefined
+d) e is not defined
+Answer: a) Oops
+
+43. Which statement is used to explicitly throw an exception in JavaScript?
+a) throw
+b) catch
+c) error
+d) try
+Answer: a) throw
+
+44. What is the purpose of the finally block in JavaScript?
+a) To always execute after the try and catch blocks, regardless of whether an exception occurred
+b) To execute if no errors occurred
+c) To handle exceptions that are not caught by the catch block
+d) None of the above
+Answer: a) To always execute after the try and catch blocks
+
+45. How can you create a custom error in JavaScript?
+a) throw new Error('Message');
+b) throw new createError('Message');
+c) throw Error()
+d) throw 'Message';
+Answer: a) throw new Error('Message');
+
+Object-Oriented JavaScript
+46. How do you create a new object in JavaScript?
+a) var obj = {};
+b) var obj = new Object();
+c) Both a and b
+d) var obj = create();
+Answer: c) Both a and b
+
+47. What is a constructor function in JavaScript?
+a) A function that constructs and returns a new object
+b) A function that is executed automatically when an object is created
+c) A method inside a class
+d) None of the above
+Answer: a) A function that constructs and returns a new object
+
+48. Which of the following syntax is used to create a class in JavaScript?
+a) class MyClass {}
+b) function MyClass() {}
+c) new MyClass()
+d) All of the above
+Answer: a) class MyClass {}
+
+49. Which keyword is used to create inheritance in JavaScript classes?
+a) inherits
+b) extends
+c) implements
+d) prototypal
+Answer: b) extends
+
+50. What does the this keyword refer to in JavaScript?
+a) The current object
+b) The global object
+c) The parent object
+d) The constructor function
+Answer: a) The current object
+
+Asynchronous JavaScript
+51. Which of the following methods makes an HTTP request in JavaScript?
+a) fetch()
+b) axios()
+c) getRequest()
+d) request()
+Answer: a) fetch()
+
+52. What will the following code output: console.log('1'); setTimeout(() => console.log('2'), 0); console.log('3');?
+a) 1 2 3
+b) 1 3 2
+c) 2 1 3
+d) 3 2 1
+Answer: b) 1 3 2
+
+53. Which of the following is a valid way to create a promise in JavaScript?
+a) new Promise()
+b) Promise.create()
+c) new Promise((resolve, reject) => { ... })
+d) Promise(() => { ... })
+Answer: c) new Promise((resolve, reject) => { ... })
+
+54. What is the purpose of the then() method in a promise?
+a) It executes a function after the promise is fulfilled.
+b) It handles the rejection of the promise.
+c) It creates a new promise.
+d) It converts the promise into an observable.
+Answer: a) It executes a function after the promise is fulfilled.
+
+55. Which method is used to handle errors in a promise?
+a) then()
+b) catch()
+c) finally()
+d) error()
+Answer: b) catch()
+
+ES6 and Beyond
+56. What does let do in JavaScript?
+a) Declares a variable with function scope
+b) Declares a variable with block scope
+c) Declares a constant
+d) None of the above
+Answer: b) Declares a variable with block scope
+
+57. What is the purpose of arrow functions in JavaScript?
+a) To provide a shorter syntax for writing functions
+b) To ensure that this is always bound to the current object
+c) To declare functions with block scope
+d) None of the above
+Answer: a) To provide a shorter syntax for writing functions
+
+58.How do you import a specific function from a module in ES6?
+a) import { functionName } from 'module';
+b) import functionName from 'module';
+c) require('module').functionName;
+d) import functionName = require('module');
+
+
+
+
+
