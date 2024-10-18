@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #box{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #pannel{
+            border: 1px solid black;
+            width: auto;
+            height: auto;
+            padding: 30px;
+            margin-top: 150px;
+        }
+        #text{
+            font-size: 18px;
+        }
+        #titel{
+            display: block;
+            width: 250px;
+            height: 35px;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            padding-left: 10px;
+            border-radius: 8px;
+        }
+         #prise{
+            display: block;
+            width: 250px;
+            height: 35px;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            padding-left: 10px;
+            border-radius: 8px;
+        }
+         #image{
+            display: block;
+            width: 250px;
+            height: 35px;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            padding-left: 10px;
+            border-radius: 8px;
+        }
+         #category{
+            display: block;
+            width: 250px;
+            height: 35px;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            padding-left: 10px;
+            border-radius: 8px;
+        }
+        #ID{
+            display: block;
+            width: 250px;
+            height: 35px;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            padding-left: 10px;
+            border-radius: 8px;
+        }
+        #submit{
+            width: 250px;
+            height: 35px;
+            border: none;
+            background-color: blue;
+            color: white;
+            border-radius: 8px;
+        }
+        #go{
+            display: block;
+            text-align: center;
+            margin-top: 15px;
+            text-decoration: none;
+            font-size: 20px;
+            
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>home page</h1>
+    <center>
+    <h1>Add Product Detail</h1>
+    </center>
+    <div id="box">
+    <form id="pannel">
+        <p id="err"></p>
+        <label for="" id="text">Product Titel</label>
+        <input type="text" id="titel" placeholder="Enter Product Titel">
+        <label for="" id="text">Product Prise</label>
+        <input type="text" id="prise" placeholder="Enter Product Prise">
+        <label for="" id="text">Product Image</label>
+        <input type="text" id="image" placeholder="Enter Product Image">
+        <label for="" id="text">Product Category</label>
+        <input type="text" id="category" placeholder="Enter Product Category">
+        <label for="" id="text">Product ID</label>
+        <input type="text" id="ID" placeholder="Enter Product ID">
+
+        <input type="submit" id="submit">
+
+        <a href="Productpage.html" id="go">Go Product Page</a>
+    </form>
+    </div>
+    <script src="scripr.js"></script>
+</body>
+</html>
